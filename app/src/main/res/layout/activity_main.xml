@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 轮播图区域：高度自定义 -->
+    <com.youth.banner.Banner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        app:indicator_drawable_selected="@drawable/banner_selected_radius"
+        app:indicator_drawable_unselected="@drawable/banner_unselected_radius"
+        app:indicator_height="8dp"
+        app:indicator_width="8dp"
+        app:indicator_margin="4dp"
+        app:is_auto_play="false"
+        app:image_scale_type="fit_xy"
+        />
+
+</LinearLayout>
